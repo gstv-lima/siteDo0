@@ -12,10 +12,44 @@ h1{
     justify-content: center;
 }
 
+h3{
+    display: flex;
+    justify-content: center;
+}
+
 p{
     width: 260px;
+    text-align: justify;
 }
 
 .conteudo{
     display: flex;
+    justify-content: center;
+    gap: 50px;
 }
+
+.wrapper-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.wrapper-buttons > button {
+  background-color: rgb(255, 255, 255);
+  border-style: outset;
+  border-color: #7f98a5;
+  height: 20px;
+  width: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: none;
+}
+
+.wrapper-buttons > button:first-child:hover{
+  background-color: rgb(90, 208, 255);
+}
+
+.wrapper-buttons > button:last-child:hover {
+  background-color: rgb(224, 11, 11);
+}
+
