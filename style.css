@@ -1,0 +1,21 @@
+.top {
+    border: none;
+    border-top: 5px solid #c2712e; 
+    margin: 20px auto;
+    width: 400px;
+    display: flex;
+    justify-content: center;   
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    width: 260px;
+}
+
+.conteudo{
+    display: flex;
+}
